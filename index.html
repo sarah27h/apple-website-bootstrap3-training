@@ -34,9 +34,16 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						</button>
-						 <a class="navbar-brand" href="#">Brand</a>
-					</div>
+						 	<a class="navbar-brand" href="#">
+						 	<!-- Name symbols with the value of data-fa-symbol -->
+							<i data-fa-symbol="apple-logo" class="fab fa-apple"></i>
 
+							<!-- Leverage the SVG Sprite technique and the <use> tag -->
+							<svg><use xlink:href="#apple-logo"></use></svg>
+						 	</a>
+							
+					</div>
+					
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
@@ -149,5 +156,8 @@
 		
 		<script src="js/jquery-1.11.3.min.js"></script>	
 		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- Use Font Awesome's Free CDN SVG -->
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
 	</body>
 </html>
