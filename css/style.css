@@ -1,8 +1,8 @@
 /*
-	* Theme Name :
-	* Version:
+	* Theme Name : Mac template
+	* Version: 1.0
 	* Author Name: Sarah Hassan
-	* Date: 00/00/000
+	* Date: 13/09/2018
 */
 
 body { 
@@ -11,3 +11,8 @@ body {
 	
 }
 
+.apple-logo {
+	width: 1.25em;
+    height: 1.25em;
+    color: #fff;
+}
