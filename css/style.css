@@ -36,9 +36,55 @@ body {
 	}
 }
 
+.navbar-toggle {
+	float: left;
+	padding: 13px;
+	border: 0;
+}
 
-.apple-logo {
+.navbar-toggle .icon-bar {
+	width: 18px;
+    height: 1px;
+}
+
+.navbar-inverse .navbar-brand {
 	width: 1.25em;
     height: 1.25em;
     color: #fff;
+	font-size: 20px;
+	padding: 14px;
+}
+
+.smallviewport-navbar {
+	display: none;
+}
+
+
+
+/* media queries */
+@media (max-width: 767px) {
+	.smallviewport-navbar {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 0;
+	}
+
+	.smallviewport-navbar li {
+		display: inline-block;
+	}
+
+	.smallviewport-navbar li a {
+		padding: 18px;
+		font-size: 18px;
+		line-height: 2.5em;
+		color: #fff;
+	}
+
+	.navbar-brand {
+		float: none;
+	}
+	
+	.navbar-header {
+		display: none;
+	}
 }
