@@ -97,15 +97,14 @@ body {
 }
 
 .jumbotron h1 {
-	font-size: 35px;
-    font-weight: 600;
+	font-size: 40px;
 }
 
 .jumbotron h2 {
 	width: 72%;
 	font-size: 80px;
+	letter-spacing: -2.5px;
     margin: auto;
-    font-weight: bolder;
     color: #000;
 }
 
@@ -116,7 +115,7 @@ body {
 }
 
 .jumbotron .title {
-	font-weight: 600;
+	font-weight: 500;
 	margin-bottom: auto;
 }
 
