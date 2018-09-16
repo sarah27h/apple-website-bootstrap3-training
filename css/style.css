@@ -47,6 +47,13 @@ body {
     letter-spacing: -.015em;
 }
 
+.subsection-headline {
+	font-size: 28px;
+    /* line-height: 1.1073; */
+    font-weight: 500;
+    letter-spacing: .012em;
+}
+
 .intro {
 	width: 75%;
 	margin: auto;
@@ -60,6 +67,10 @@ body {
     letter-spacing: .016em;
 }
 
+p {
+	font-size: 17px;
+	color: #333;
+}
 
 /* start navbar */
 .nav-container {
@@ -163,6 +174,16 @@ body {
 .performance .image-container {
 	margin: 90px 0;
 }
+
+
+/* feature*/
+.feature {
+	background: #fafafa;
+    padding: 48px;
+    margin: 10px -10px;
+}
+
+
 
 
 /* media queries */
